@@ -1,0 +1,4 @@
+docker build -t task-manager .
+
+docker run -it -v [/home/flatis/Study/t2/TaskManager/Dockerfile]:/task_manager task-manager bash
+
